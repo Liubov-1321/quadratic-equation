@@ -16,11 +16,11 @@ public class QuadraticEquation {
         double D = (b * b - 4 * a * c);
         //System.out.println(D);
         if (D > 0) {
-        double x1 = (double) (-b - Math.sqrt(D) )/ (2 * a);
-        double x2 = (double) (-b + Math.sqrt(D) )/ (2 * a);
+        double x1 = (-b - Math.sqrt(D) )/ (2 * a);
+        double x2 = (-b + Math.sqrt(D) )/ (2 * a);
         System.out.println(x1 + " " + x2);
         } else if (D == 0) {
-        double x0 = (double) -b / (2 * a);
+        double x0 = ( -b / (2 * a));
         System.out.println(x0);
         } else {
             System.out.println("no roots");
